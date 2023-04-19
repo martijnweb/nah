@@ -1,0 +1,80 @@
+header {
+  background-color: lightgreen;
+  height: 70px;
+}
+
+footer {
+  background-color: blue;
+  height: 50px;
+}
+
+section header {
+  background-color: inherit;
+}
+
+table,td{
+  border: 3px solid black;
+}
+#cel1-1 {
+    background-color: #236653;
+}
+
+#cel1-2 {
+    background-color: #7533AF;
+}
+
+#cel1-3 {
+    background-color: #69330A;
+}
+
+#cel1-4 {
+    background-color: #EC1286;
+}
+
+#cel2-1 {
+    background-color: #43AEEA;
+}
+
+#cel2-2 {
+    background-color: #4C8BFA;
+}
+
+#cel2-3 {
+    background-color: #958373;
+}
+
+#cel2-4 {
+    background-color: #742266;
+}
+
+#cel3-1 {
+    background-color: sandybrown;
+}
+
+#cel3-2 {
+    background-color: crimson;
+}
+
+#cel3-3 {
+    background-color: moccasin;
+}
+
+#cel3-4 {
+    background-color: firebrick;
+}
+
+#cel4-1 {
+    background-color: RGB(123,234,54);
+}
+
+#cel4-2 {
+    background-color: RGB(230,167,111);
+}
+
+#cel4-3 {
+    background-color: RGB(85,221,184);
+}
+
+#cel4-4 {
+    background-color: RGB(222,99,88);
+}

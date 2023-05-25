@@ -1,0 +1,121 @@
+html {
+  background-color: orange;
+}
+
+body{
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  background-color: yellow;
+  margin: 0 250px;
+  padding 5px;
+  border-left: 3px solid green;
+  border-right: 3px solid green;
+}
+
+header {
+  background-color: green;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  width: 100px;
+  height: 30px;
+  background-color: lightgreen;
+  text-align: center;
+  padding-bottom: 3px;
+  font-size: 20px;
+}
+
+nav ul {
+  vertical-align: middle;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 5px;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+a:active {
+  background-color: blue;
+}
+
+h1, p, img {
+  margin: 5px 10px;
+}
+
+
+table {
+  width: 75%;
+  margin: 5px 10px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+  vertical-align: top;
+}
+
+td {
+  height: 20px;
+}
+.leeg {
+  border: none;
+}
+
+form {
+  margin: 5px 10px;
+}
+
+label {
+  display: inline-block;
+  min-width: 150px;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+
+input {
+  display: inline-block;
+  width: 200px;
+}
+
+textarea {
+  display: inline-block;
+  border-radius: 5px;
+  min-width: 216px;
+  max-width: 216px;
+  min-height: 150px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  background-color: orange;
+}
+
+footer {
+  background-color: green;
+  text-align: center;
+  padding: 5px;
+}

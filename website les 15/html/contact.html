@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <title>les15-01</title>
+  <link rel="stylesheet" type="text/css" href="../css/stijl.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="mijncv.html">Mijn CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Contactformulier</h1>
+  <p>Heb je vragen of opmerkingen? Vul dan onderstaand formulier in.</p>
+  <form action="https://formspree.io/f/xrgvvaba" method="POST">
+    <label for="voornaam">Voornaam *</label>
+    <input type="text" id="voornaam" name="voornaam" required/><br>
+    <label for="achternaam">Achternaam</label>
+    <input type="text" id="achternaam" name="achternaam"/><br>
+    <label for="telefoon">Telefoon</label>
+    <input type="tel" id="telefoon" name="telefoon"/><br>
+    <label for="email">E-mailadres *</label>
+    <input type="email" id="email" name="email" required/><br>
+    <label for="bericht">Bericht *</label>
+    <textarea id="bericht" name="bericht" required></textarea><br>
+    <p>* = verplicht</p>
+    <button>Versturen</button>
+  </form>
+
+  <footer>
+    <p>&copy; Martijn 2023</p>
+  </footer>
+</body>
+
+</html>
